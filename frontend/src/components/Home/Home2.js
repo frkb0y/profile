@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import { SiGmail } from "react-icons/si";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +20,45 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am <b className="purple">Arslen Mohamed</b>, a 
+              <b className="purple"> Software Developer </b> and 
+              <b className="purple"> Big Data student</b> from Tunisia.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I enjoy building <i><b className="purple">web and mobile applications</b></i>, 
+              working with both frontend and backend technologies.
+              <br />
+              <br />
+              I have hands-on experience with
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Angular, React, Node.js, .NET, Flutter, and Spring Boot </b>
+              </i>
+              as well as working with databases like
+              <i>
+                <b className="purple"> MongoDB, MySQL, and SQLite.</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Beyond development, I am passionate about 
+              <i><b className="purple"> Data Science and Big Data</b></i>. 
+              I work with tools such as
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> Python, Pandas, NumPy, Matplotlib, Scikit-learn, and SQL </b>
               </i>
+              to analyze data, build predictive models, and deliver insights.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My main interests include developing 
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> innovative web solutions, cross-platform apps, </b>
               </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              and exploring areas of{" "}
+              <b className="purple"> Big Data, AI, and predictive analytics.</b>
+              <br />
+              <br />
+              I love turning ideas into real products, whether it's{" "}
+              <b className="purple">e-commerce platforms, document systems,</b> 
+              or even <b className="purple">creative digital projects powered by data.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +76,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/frkb0y" // replace with your GitHub username
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/arslen-mohamed" // replace with your LinkedIn
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +96,17 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="arslenmohamed2001@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiGmail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/arslen.007/?hl=fr" // if you want to share Instagram
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
