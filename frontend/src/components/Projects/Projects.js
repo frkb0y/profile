@@ -41,7 +41,7 @@ function Projects() {
               Install it in Chrome/Opera to boost your productivity and easily manage your job hunt.
               Built with JavaScript and designed for seamless integration."
               ghLink="https://github.com/frkb0y/tanit-dashboard"
-              //demoLink="https://github.com/frkb0y/tanit-dashboard#installation"
+              demoLink="https://addons.opera.com/en-gb/extensions/details/TanitJobs"
             />
           </Col>
 
