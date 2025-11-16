@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import studentApp from "../../Assets/Projects/student-app-photo.png";
+import whether from "../../Assets/Projects/whether.png";
 import tanitDashboard from "../../Assets/Projects/tanjat.png"; // <-- add a screenshot of your extension
 
 function Projects() {
