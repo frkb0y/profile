@@ -45,6 +45,22 @@ function Projects() {
             />
           </Col>
 
+               
+          
+       {/* Weather App Dashboard */}
+<Col md={6} className="project-card">
+  <ProjectCard
+    imgPath={whether}
+    isBlog={false}
+    title="Weather Forecast Dashboard"
+    description="A modern weather application that allows you to search any city and instantly view accurate weather data, including temperature, humidity, wind speed, and 7-day forecasts.  
+    Built with Python (FastAPI) for the backend and React for the frontend.  
+    Clean UI, real API data, and fast performance — designed for everyday use."
+    ghLink="https://github.com/frkb0y/simple-whether-python"
+   
+  />
+</Col>
+
         </Row>
         
       </Container>
