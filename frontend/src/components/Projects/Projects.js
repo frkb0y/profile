@@ -33,7 +33,20 @@ function Projects() {
               // demoLink="https://your-demo-link.com"
             />
           </Col>
-          
+
+{/* Dubai Sales Analytics Power BI Dashboard */}
+<Col md={6} className="project-card">
+  <ProjectCard
+    imgPath={dubaiDashboard}
+    isBlog={false}
+    title="Dubai Sales Analytics Dashboard"
+    description="An end-to-end Power BI project analyzing retail sales performance across Dubai districts. 
+    Includes interactive dashboards: Sales Overview, Dubai Map Analysis, and Customer Insights.
+    Features data cleaning, DAX measures, and visual storytelling."
+    demoLink={require("../../Assets/Projects/Dubai sales dash.pbix")}     // this will download the PBIX file
+  />
+</Col>
+
           {/* TanitJobs Dashboard Enhancer Extension */}
           <Col md={6} className="project-card">
             <ProjectCard
@@ -44,7 +57,6 @@ function Projects() {
               Install it in Chrome/Opera to boost your productivity and easily manage your job hunt.
               Built with JavaScript and designed for seamless integration."
               ghLink="https://github.com/frkb0y/tanit-dashboard"
-              demoLink="https://addons.opera.com/en-gb/extensions/details/TanitJobs"
             />
           </Col>
 
@@ -65,18 +77,7 @@ function Projects() {
 </Col>
 
 
-{/* Dubai Sales Analytics Power BI Dashboard */}
-<Col md={6} className="project-card">
-  <ProjectCard
-    imgPath={dubaiDashboard}
-    isBlog={false}
-    title="Dubai Sales Analytics Dashboard"
-    description="An end-to-end Power BI project analyzing retail sales performance across Dubai districts. 
-    Includes interactive dashboards: Sales Overview, Dubai Map Analysis, and Customer Insights.
-    Features data cleaning, DAX measures, and visual storytelling."
-    demoLink={require("../../Assets/Projects/Dubai sales dash.pbix")}     // this will download the PBIX file
-  />
-</Col>
+
 
 
         </Row>
