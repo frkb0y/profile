@@ -4,7 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import studentApp from "../../Assets/Projects/student-app-photo.png";
 import whether from "../../Assets/Projects/whether.png";
-import tanitDashboard from "../../Assets/Projects/tanjat.png"; // <-- add a screenshot of your extension
+import tanitDashboard from "../../Assets/Projects/tanjat.png"; 
+import dubaiDashboard from "../../Assets/Projects/DubaiD.png";
+
 
 function Projects() {
   return (
@@ -62,7 +64,6 @@ function Projects() {
   />
 </Col>
 
-      import dubaiDashboard from "../../Assets/Projects/DubaiD.png";
 
 {/* Dubai Sales Analytics Power BI Dashboard */}
 <Col md={6} className="project-card">
@@ -73,7 +74,7 @@ function Projects() {
     description="An end-to-end Power BI project analyzing retail sales performance across Dubai districts. 
     Includes interactive dashboards: Sales Overview, Dubai Map Analysis, and Customer Insights.
     Features data cleaning, DAX measures, and visual storytelling."
-    demoLink={require("../../Assets/Projects/DubaiD.pbix")}     // this will download the PBIX file
+    demoLink={require("../../Assets/Projects/Dubai sales dash.pbix")}     // this will download the PBIX file
   />
 </Col>
 
