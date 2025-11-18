@@ -62,6 +62,22 @@ function Projects() {
   />
 </Col>
 
+      import dubaiDashboard from "../../Assets/Projects/DubaiD.png";
+
+{/* Dubai Sales Analytics Power BI Dashboard */}
+<Col md={6} className="project-card">
+  <ProjectCard
+    imgPath={dubaiDashboard}
+    isBlog={false}
+    title="Dubai Sales Analytics Dashboard"
+    description="An end-to-end Power BI project analyzing retail sales performance across Dubai districts. 
+    Includes interactive dashboards: Sales Overview, Dubai Map Analysis, and Customer Insights.
+    Features data cleaning, DAX measures, and visual storytelling."
+    demoLink={require("../../Assets/Projects/DubaiD.pbix")}     // this will download the PBIX file
+  />
+</Col>
+
+
         </Row>
         
       </Container>
