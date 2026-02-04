@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiPython, DiJavascript1, DiJava, DiNodejs, DiPhp } from "react-icons/di";
-import { SiMysql, SiMongodb, SiReact, SiFastapi, SiAngular, SiExpress, SiDart, SiFlutter, SiHtml5, SiCss3, SiCsharp } from "react-icons/si";
+import { SiMysql, SiMongodb, SiReact, SiFastapi, SiAngular, SiExpress, SiDart, SiFlutter, SiHtml5, SiCss3, SiCsharp, SiTypescript } from "react-icons/si";
 
 const techs = [
   { icon: <DiPython />, name: "Python" },
   { icon: <SiMysql />, name: "SQL" },
   { icon: <DiJavascript1 />, name: "JavaScript" },
+  { icon: <SiTypescript />, name: "TypeScript" },
   { icon: <SiHtml5 />, name: "HTML5" },
   { icon: <SiCss3 />, name: "CSS3" },
   { icon: <DiPhp />, name: "PHP" },
